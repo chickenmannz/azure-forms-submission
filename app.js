@@ -4,8 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Azure Form Recognizer Configuration
-const endpoint = "YOUR_FORM_RECOGNIZER_ENDPOINT";
-const modelId = "YOUR_CUSTOM_MODEL_ID"; // Optional: If you have a custom model, replace with your custom model ID
+const endpoint = process.env.FORM_RECOGNIZER_ENDPOINT;
 
 // Initialize Azure Form Recognizer client
 const credential = new DefaultAzureCredential();
