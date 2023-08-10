@@ -12,3 +12,7 @@ Please make sure you have your Azure Form Recognizer subscription keys or authen
 node app.js "path/to/image/directory"
 
 It will read all the JPG files in the specified directory, extract tables from each image, and save the extracted tables as CSV files with the same prefix names as their corresponding JPG files. For example, if the original JPG file is named "example.jpg," the CSV file with the extracted table will be saved as "example.csv" in the extracted_tables folder.
+
+## Microsoft Document Intelligence
+
+https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/quickstarts/get-started-sdks-rest-api?view=doc-intel-3.1.0&viewFallbackFrom=form-recog-3.0.0&preserve-view=true&pivots=programming-language-javascript 
